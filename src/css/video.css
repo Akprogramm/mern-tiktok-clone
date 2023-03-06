@@ -1,0 +1,26 @@
+html{
+    scroll-snap-type: y mandatory;
+  }
+
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+.videoBody{
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    scroll-snap-align: start;
+    margin-bottom: -135px;
+}
+
+video{
+    height: 100vh;
+    border-radius: 3%;
+    border: 1px solid white;
+}
